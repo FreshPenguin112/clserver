@@ -1,4 +1,5 @@
-app = "hi"
+from flask import Flask
+app = Flask(__name__)
 from cloudlink import cloudlink
 if __name__ == "__main__":
     cl = cloudlink() # Instanciate the parent cloudlink object
