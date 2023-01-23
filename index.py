@@ -5,7 +5,7 @@ app = Flask(__name__)
 def before_request():
     print('hi')
     from cloudlink import cloudlink
-    if __name__ == "__main__":
+    if True:
         cl = cloudlink() # Instanciate the parent cloudlink object
         server = cl.server(logs=True) # Initialize a new server object
         server.run(
