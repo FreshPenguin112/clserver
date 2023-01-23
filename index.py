@@ -8,8 +8,8 @@ if __name__ == "__main__":
     # Do configuration here
     
     server.run(
-        ip = "localhost", # Defaults to 127.0.0.1, use 0.0.0.0 to host on all interfaces
-        port = 3000 # Defaults to port 3000
+        ip = "127.0.0.1", # Defaults to 127.0.0.1, use 0.0.0.0 to host on all interfaces
+        port = 5000 # Defaults to port 3000
     )
     
     # server.run() is blocking,
