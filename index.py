@@ -10,7 +10,7 @@ def before_request():
         server = cl.server(logs=True) # Initialize a new server object
         server.run(
             ip = "0.0.0.0",
-            port = 3000
+            port = 8080
         )
 @app.route('/')
 def hello_world(): 
