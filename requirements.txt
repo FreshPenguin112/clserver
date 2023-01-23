@@ -1,0 +1,3 @@
+Flask==2.0.3
+websockets
+git+https://github.com/FreshPenguin112/cloudlink.git#egg=cloudlink
